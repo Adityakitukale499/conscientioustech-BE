@@ -12,7 +12,7 @@
 // module.exports = app;
 
 const express = require("express");
-const cors = require("cors"); // Import CORS middleware
+const cors = require("cors");
 const authRoutes = require("./routes/authRoutes");
 const employeeRoutes = require("./routes/employeeRoutes");
 const departmentRoutes = require("./routes/departmentRoutes");
